@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Seymour+One&display=swap');
+
+   *{
+    box-sizing:border-box;
+    margin:0px;
+    padding: 0px;
+    }
+    
+
+body {
+    background-color: #FDF7F0;
+    color: #0d0d0d;
+    font-family: "seymour", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background: linear-gradient(to right,#D4A373, #ADD9B8);
+    padding: 20px 0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+header img {
+     width:400px;
+    height:auto;
+    margin-bottom: 5px;
+
+}
+   
+nav a {
+    color: #2f3782;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 12px;
+    margin: 0px 10px;
+}
+
+nav a:hover{
+    color: #0d0d0d;
+    background-color: #D4A373;
+    border-radius: 20px;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+#frase-de-efeito {
+    letter-spacing: 1px;
+    color: #ADD9B8;
+    font-weight: 600px;
+    font-size: 1.1rem;
+    text-shadow: 0px 0px 8px #b5db5dc2;
+
+}
+
+h1 {
+    color:#2F3C7E;
+    font-size: 2rem;
+    margin: 20px;
+
+}
+
+.container {
+    display: flex;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+    gap:15px;
+    margin: 10px 0px;
+}
+
+.container img {
+    width:30%;
+}
+
+
+
+
+footer {
+    background-color: #D4A373;
+    color: #f2e0c9;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.redes-sociais{
+    margin-top: 10px;
+}
+
+
+footer img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease;
+    margin: 0px 6px;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
